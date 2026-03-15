@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Models (can be large — train locally)
+tiktok_model/models/*.pkl
+
+# Dataset screenshots (personal data)
+dataSetScrapper/data/screenshots/
+
+# CSV data (optional — uncomment if you don't want to commit it)
+# dataSetScrapper/data/data.csv
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
